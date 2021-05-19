@@ -10,6 +10,24 @@ const routes = require('./routes');
 app.use('/static', express.static('public'));
 app.use(routes);
 
+// Handle 404 situations
+app.use((req, res, next) => {
+    const err = new Error('Not found.');
+    err.status = 404;
+    next(err);
+});
+
+// Handle any other errors
+app.use((err, req, res, next) => {
+    res.locals.error = err;
+    if (err.status) {
+        res.status(err.status);
+    } else {
+        res.status(500);
+    }
+    next(err);
+});
+
 // Server should listen for requests on port 3000
 app.listen(3000, () => {
     console.log('Running');

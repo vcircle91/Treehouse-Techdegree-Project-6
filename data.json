@@ -7,16 +7,16 @@
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://www.google.com",
             "github_link": "https://www.github.com",
-            "image_urls": ["/public/img/01-01.jpg", "/public/img/01-02.jpg"]
+            "image_urls": ["/static/img/01-01.jpg", "/static/img/01-02.jpg"]
         },
         {
             "id": 1,
-            "project_name": "Another project",
+            "project_name": "Data Pagination and Filtering",
             "description": "Something cool",
             "technologies": ["JavaScript", "HTML", "CSS"],
             "live_link": "https://www.google.com",
             "github_link": "https://www.github.com",
-            "image_urls": ["/public/img/02-01.jpg", "/public/img/02-02.jpg"]
+            "image_urls": ["/static/img/02-01.jpg", "/static/img/02-02.jpg"]
         }
     ]
 }

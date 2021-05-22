@@ -2,21 +2,57 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "A random quote generator",
-            "description": "Something cool",
-            "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "https://www.google.com",
+            "project_name": "A full checkout with backend",
+            "description": "This started as a private prject but later turned into something useful for my full-time work for a payment service provider: I could add Klarna- and credit card checkout in order to see the implementation from the eyes of a developer. This is helping me with my work as Technical Consultant. Also server-to-server calls are implemented in the backend. The project uses Vue.js in frontend and Django in backend with a REST-API.",
+            "technologies": ["Vue.js", "Django", "Encryption", "Apache", "Computop Paygate"],
+            "live_link": "https://www.habaneria-buchungssystem.de",
             "github_link": "https://www.github.com",
-            "image_urls": ["/static/img/01-01.jpg", "/static/img/01-02.jpg"]
+            "image_urls": ["/static/img/03-01.jpg", "/static/img/03-02.jpg", "/static/img/03-03.jpg", "/static/img/03-04.jpg", "/static/img/03-05.jpg", "/static/img/03-06.jpg"]
         },
         {
             "id": 1,
-            "project_name": "Data Pagination and Filtering",
-            "description": "Something cool",
+            "project_name": "A random quote generator",
+            "description": "This was a small project to get familiar with the DOM api. ",
             "technologies": ["JavaScript", "HTML", "CSS"],
-            "live_link": "https://www.google.com",
-            "github_link": "https://www.github.com",
+            "live_link": "https://vcircle91.github.io/Treehouse-Techdegree-Project-1/",
+            "github_link": "https://github.com/vcircle91/Treehouse-Techdegree-Project-1",
+            "image_urls": ["/static/img/01-01.jpg", "/static/img/01-02.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Data Pagination and Filtering",
+            "description": "This page displays a set of students and allow pagination as well as real-time search.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://vcircle91.github.io/Treehouse-Techdegree-Project-2/",
+            "github_link": "https://github.com/vcircle91/Treehouse-Techdegree-Project-2",
             "image_urls": ["/static/img/02-01.jpg", "/static/img/02-02.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "A registration form",
+            "description": "For this project Treehouse provided me a HTML form and the gaol was to make it more intuitive, accessible and user-friendly using JavaScrip. Also different validations jave been added, some of them using regular expressions.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://vcircle91.github.io/Treehouse-Techdegree-Project-3/",
+            "github_link": "https://github.com/vcircle91/Treehouse-Techdegree-Project-3",
+            "image_urls": ["/static/img/04-01.jpg", "/static/img/04-02.jpg", "/static/img/04-03.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Phrase Hunter Game",
+            "description": "My job was to add complete game logic in JavaScript using object-orientated approaches to build this game.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://vcircle91.github.io/Treehouse-Techdegree-Project-4/",
+            "github_link": "https://github.com/vcircle91/Treehouse-Techdegree-Project-4",
+            "image_urls": ["/static/img/05-01.jpg", "/static/img/05-02.jpg", "/static/img/05-03.jpg", "/static/img/05-04.jpg"]
+        },
+        {
+            "id": 5,
+            "project_name": "Employee list",
+            "description": "For this project I used a public api to retrieve random persons. I added logic to allow details to get displayed in a modal and other features like search in real-time.",
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "live_link": "https://vcircle91.github.io/-Treehouse-Techdegree-Project-5/",
+            "github_link": "https://github.com/vcircle91/-Treehouse-Techdegree-Project-5",
+            "image_urls": ["/static/img/06-01.jpg", "/static/img/06-02.jpg", "/static/img/06-03.jpg"]
         }
     ]
 }

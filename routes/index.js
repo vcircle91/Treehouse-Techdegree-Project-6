@@ -15,8 +15,11 @@ router.get('/about', (req, res) => {
 router.get('/project/:id', (req, res) => {
     const { id } = req.params;
     const projectDetail = projects[id];
-    console.log(projectDetail)
-    res.render('project', { id, projectDetail });
+    if(isNaN(id) || !projectDetail) {
+        res.render('page-not-found');
+    } else {
+        res.render('project', { id, projectDetail });
+    }
 });
 
 module.exports = router;

@@ -3,10 +3,10 @@
         {
             "id": 0,
             "project_name": "A full checkout with backend",
-            "description": "This started as a private prject but later turned into something useful for my full-time work for a payment service provider: I could add Klarna- and credit card checkout in order to see the implementation from the eyes of a developer. This is helping me with my work as Technical Consultant. Also server-to-server calls are implemented in the backend. The project uses Vue.js in frontend and Django in backend with a REST-API.",
+            "description": "This started as a private project but later turned into something useful for my full-time work for a payment service provider: I could add Klarna- and credit card checkout in order to see the implementation from the eyes of a developer. This is helping me with my work as Technical Consultant. Also server-to-server calls are implemented in the backend. The project uses Vue.js in frontend and Django in backend with a REST-API.",
             "technologies": ["Vue.js", "Django", "Encryption", "Apache", "Computop Paygate"],
-            "live_link": "https://www.habaneria-buchungssystem.de",
-            "github_link": "https://www.github.com",
+            "live_link": "https://habaneria-buchungssystem.de",
+            "github_link": "",
             "image_urls": ["/static/img/03-01.jpg", "/static/img/03-02.jpg", "/static/img/03-03.jpg", "/static/img/03-04.jpg", "/static/img/03-05.jpg", "/static/img/03-06.jpg"]
         },
         {

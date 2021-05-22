@@ -14,7 +14,7 @@ app.use(routes);
 app.use((req, res, next) => {
     const err = new Error('Not found.');
     err.status = 404;
-    next(err);
+    res.render('page-not-found');
 });
 
 // Handle any other errors
@@ -25,7 +25,7 @@ app.use((err, req, res, next) => {
     } else {
         res.status(500);
     }
-    next(err);
+    res.render('error');
 });
 
 // Server should listen for requests on port 3000

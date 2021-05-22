@@ -22,7 +22,8 @@ block content
             li=skill
 
         a.btn-link(href=projectDetail.live_link, target='_blank') Live Demo
-        a.btn-link(href=projectDetail.github_link, target='_blank') GitHub Repo
+        if projectDetail.github_link
+          a.btn-link(href=projectDetail.github_link, target='_blank') GitHub Repo
 
     .project-img-box.box
 

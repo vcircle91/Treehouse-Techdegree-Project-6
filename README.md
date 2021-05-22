@@ -1,6 +1,6 @@
 # Treehouse-Techdegree-Project-6
 This is my work for Treehouse project 6 which had the goal to practise Node.js and Express.
-I am aiming for "Exceeds expectations grade".
+I am aiming for "Exceeds expectations" grade.
 ## Changed CSS
 - Sidebar background (Now in green)
 - Body background (Now in green)

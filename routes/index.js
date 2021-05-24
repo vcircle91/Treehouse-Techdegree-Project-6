@@ -16,6 +16,7 @@ router.get('/project/:id', (req, res) => {
     const { id } = req.params;
     const projectDetail = projects[id];
     if(isNaN(id) || !projectDetail) {
+        console.log('Page not found');
         res.render('page-not-found');
     } else {
         res.render('project', { id, projectDetail });
